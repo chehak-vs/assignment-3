@@ -3,9 +3,9 @@ import { View,StatusBar, Button, TouchableOpacity, Text } from 'react-native'
 import Onboarding from 'react-native-onboarding-swiper';
 
 import { Breathing, Cough, Fever } from '../../assets';
+import { COLORS } from '../../theme';
 
 import styles from './OnBoarding-styles';
-import { COLORS } from '../../theme';
 
 const Dots = ({selected}) => {
   let bgColor = selected ? '#FF647C' : '#E4E4E4'

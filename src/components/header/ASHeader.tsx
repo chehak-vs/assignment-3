@@ -2,9 +2,9 @@ import React from 'react';
 import {View, Text} from 'react-native';
 
 import {MenuIcon, UserIcon} from '../../assets';
+import { SPACING } from '../../theme';
 
 import styles from './asHeader-styles';
-import { SPACING } from '../../theme';
 
 interface ASHeaderProps {
   title: string;

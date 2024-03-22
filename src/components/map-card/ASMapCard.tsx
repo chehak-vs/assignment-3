@@ -1,9 +1,10 @@
-import {View, Text} from 'react-native';
 import React from 'react';
-import * as Progress from 'react-native-progress';
-import {Bell, Pie} from '../../assets';
-import styles from './asMapCard-styles';
+import {View, Text} from 'react-native';
 import CircularProgress from 'react-native-circular-progress-indicator';
+
+import {Bell} from '../../assets';
+
+import styles from './asMapCard-styles';
 
 const ASMapCard = () => {
   return (

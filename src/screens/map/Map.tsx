@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import {View, Text, ScrollView} from 'react-native';
 
-import {ASHeader, ASHomeCard, ASMapAffectedAreas} from '../../components';
+import {ASHeader, ASMapAffectedAreas} from '../../components';
+import ASMapCard from '../../components/map-card/ASMapCard';
 import fetchData from '../../services/api';
 
 import styles from './map-styles';
-import ASMapCard from '../../components/map-card/ASMapCard';
 
 const Map = () => {
   const [data, setData] = useState(null);
