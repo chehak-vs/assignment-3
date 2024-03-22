@@ -1,0 +1,1 @@
+export const DISCOVERY_WEB_URL : string = 'https://www.google.com/maps/d/u/0/viewer?mid=1Q_XUP80EyawBs4eY4gQk0FEp3BQ&hl=en_US&ll=28.58516208558693%2C77.22564699999998&z=12';

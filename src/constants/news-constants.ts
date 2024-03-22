@@ -1,0 +1,1 @@
+export const NEWS_WEB_URL : string = 'https://www.ndtv.com/coronavirus';

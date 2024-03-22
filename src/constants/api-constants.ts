@@ -1,0 +1,1 @@
+export const API_URL : string = 'https://disease.sh/v3/covid-19/countries';
