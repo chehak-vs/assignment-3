@@ -1,0 +1,1 @@
+export const EDUCATION_WEB_URL : string = 'https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters';
